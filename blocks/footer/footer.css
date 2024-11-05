@@ -23,13 +23,26 @@
   display: flex; /* Added display property for flex alignment */
   justify-content: center;
   align-items: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 23px;
   background-color: #4C4C4C;
-  color: #C4CACC;
   padding: 1px 12px;
   margin: 0 0 18px; /* Consistent shorthand usage */
 }
+
+.footer-sec2 h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #C4CACC; 
+  font-size: 23px;
+}
+/*
+  Just now
+.footer-sec2 {
+display: flex;
+}
+.footer-sec2 h2 {
+all font styles (fonts family, font-size, color)
+}
+*/
+
 
 .footer-sec2p {
   display: flex;
@@ -49,13 +62,15 @@
   display: flex; /* Added display property for flex alignment */
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 23px;
   background-color: #4C4C4C;
-  color: #C4CACC;
   padding: 1px 12px;
   margin: 0 0 18px; /* Consistent shorthand usage */
+}
+
+.footer-sec3 h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #C4CACC; 
+  font-size: 23px;
 }
 
 .footer-sec3p {
@@ -76,13 +91,15 @@
   display: flex; /* Added display property for flex alignment */
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 23px;
   background-color: #4C4C4C;
-  color: #C4CACC;
   padding: 1px 12px;
   margin: 0 0 18px; /* Consistent shorthand usage */
+}
+
+.footer-sec4 h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #C4CACC; 
+  font-size: 23px;
 }
 
 .footer-sec4p {
