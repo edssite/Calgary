@@ -2,54 +2,55 @@
 .footer {
   background-color: #333; 
   color: #F6F6F6; 
-  padding: 10px 20px; 
+  padding: 36px 18px; 
   text-align: center;
-  font-family: 'Open Sans', sans-serif; /* Added missing semicolon */
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
 }
 
 .footer > div {
   margin: auto;
-  max-width: 1022px;
+  max-width: 1300px;
 }
 
 .footer-sec1 {
-  display: flex; /* Added display property for flex alignment */
-  justify-content: center;
-  font-size: 16px;
-  margin: 0 0 36px; /* Consistent shorthand usage */
+   justify-content: center;
+   font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
+   font-size: 16px;
+   padding: 0 15px;
+   margin: 0 0 36px;
+}
+
+.footer-sec1 p {
+  margin: 0 0 12px;
 }
 
 .footer-sec2 {
-  display: flex; /* Added display property for flex alignment */
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: #4C4C4C;
-  padding: 1px 12px;
-  margin: 0 0 18px; /* Consistent shorthand usage */
+  border-bottom: .0625rem solid #7f7f7f;
+  padding: 12px 18px;
+  text-align: center;
+  margin: 0 0 18px;
 }
 
-.footer-sec2 h2{
-  font-family: 'Open Sans', sans-serif;
-  color: #C4CACC; 
+.footer-sec2 p {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
+  color: #C4CACC;
   font-size: 23px;
+  margin: 0;
 }
-/*
-  Just now
-.footer-sec2 {
-display: flex;
-}
-.footer-sec2 h2 {
-all font styles (fonts family, font-size, color)
-}
-*/
-
 
 .footer-sec2p {
   display: flex;
   justify-content: center;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
   font-size: 16px;
-  gap: 75px; 
-  margin: 0 0 36px; /* Consistent shorthand usage */
+  gap: 75px;
+  margin: 0 0 36px;
 }
 
 .footer-sec2p img {
@@ -59,26 +60,30 @@ all font styles (fonts family, font-size, color)
 }
 
 .footer-sec3 {
-  display: flex; /* Added display property for flex alignment */
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: #4C4C4C;
-  padding: 1px 12px;
-  margin: 0 0 18px; /* Consistent shorthand usage */
+  border-bottom: .0625rem solid #7f7f7f;
+  padding: 12px 18px;
+  text-align: center;
+  margin: 0 0 18px;
 }
 
-.footer-sec3 h2{
-  font-family: 'Open Sans', sans-serif;
-  color: #C4CACC; 
+.footer-sec3 p {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  color: #C4CACC;
   font-size: 23px;
+  margin: 0;
 }
 
 .footer-sec3p {
   display: flex;
   justify-content: center;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
   font-size: 16px;
-  gap: 50px; 
-  margin: 0 0 36px; /* Consistent shorthand usage */
+  gap: 50px;
+  margin: 0 0 36px;
 }
 
 .footer-sec3p img {
@@ -88,35 +93,55 @@ all font styles (fonts family, font-size, color)
 }
 
 .footer-sec4 {
-  display: flex; /* Added display property for flex alignment */
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: #4C4C4C;
-  padding: 1px 12px;
-  margin: 0 0 18px; /* Consistent shorthand usage */
+  border-bottom: .0625rem solid #7f7f7f;
+  padding: 12px 18px;
+  text-align: center;
+  margin: 0 0 18px;
 }
 
-.footer-sec4 h2{
-  font-family: 'Open Sans', sans-serif;
-  color: #C4CACC; 
+.footer-sec4 p {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
+  color: #C4CACC;
   font-size: 23px;
+  margin: 0;
 }
 
 .footer-sec4p {
   display: flex;
   justify-content: center;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif; 
   font-size: 16px;
-  gap: 20px; 
+  gap: 20px;
+  margin: 0;
+}
+
+.footer-sec4p p {
+  margin: 0 0 0 9px;
+}
+
+.footer-line p {
+  margin: 27px 0;
+  color: #6F7277;
 }
 
 .footer-legal {
   color: #ccc;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin-top: 10px;
 }
 
 .footer-legal a {
   color: #F6F6F6;
+  margin: 0 5px;
+}
+
+.footer-legal p {
+  color: #C9CACC;
   text-decoration: none;
-  margin: 5px 20px; /* Changed to px to ensure correct syntax */
+  margin: 0 0 27px;
 }
