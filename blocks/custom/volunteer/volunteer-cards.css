@@ -1,0 +1,53 @@
+.volunteer-cards-wrapper {
+    padding: 0% !important;
+}
+
+.volunteer-cards > div {
+    display: flex;
+}
+
+.volunteer-cards > div > div {
+    width: 400px;
+    height: 320px;
+    background-color: #f6f6f6;
+    padding: 1.125rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid #b9bec3;
+    box-shadow: 1px 4px 4px #dbdcdd;
+    border-radius: 20px;
+}
+
+.volunteer-cards > div > div:hover {
+    transition: background-color 0.5s ease, box-shadow 0.5s ease; /* Adjust duration here */
+    background-color: white;
+    border: 1px solid #b9bec3;
+    box-shadow: 1px 6px 6px rgb(51, 51, 51);
+}
+
+.volunteer-cards > div:last-child > div:last-child {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.volunteer-cards > div > div > h3 > strong a {
+    color: rgb(224, 18, 51);
+    font-family: open-sans;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.volunteer-cards > div > div > p:last-child {
+    color: rgb(51, 51, 51);
+    font-family: open-sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
