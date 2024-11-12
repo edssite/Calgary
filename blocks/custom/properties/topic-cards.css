@@ -54,6 +54,15 @@
     margin: 0 0 0px;  
 }
 
+.topic-cards > div > div > h3 a {
+    color:  rgb(200, 16, 46);
+    text-decoration: none; 
+}
+
+.topic-cards > div > div > h3 a:hover {
+    color: darkred; 
+}
+
 .topic-cards > div > div p {
     margin: 0 0 0px;  
 }
