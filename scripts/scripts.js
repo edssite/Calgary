@@ -1,5 +1,5 @@
 import {
-  buildBlock,
+  // buildBlock,
   loadHeader,
   loadFooter,
   decorateButtons,
@@ -12,8 +12,6 @@ import {
   loadSections,
   loadCSS,
 } from './aem.js';
-
-
 
 /**
  * load fonts.css and set a session storage flag

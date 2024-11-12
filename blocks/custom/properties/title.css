@@ -1,0 +1,65 @@
+.title-container{
+  height: 500px;
+  padding: 0px;
+  margin: 0px;
+}
+.title-wrapper {
+  height: 500px;
+  
+  background: linear-gradient(
+    to right,
+    rgb(255 255 255 / 80%),
+    rgb(255 255 255 / 50%),
+    rgb(255 255 255 / 0%)
+  );
+  z-index: 1;
+}
+
+.title {
+  position: relative;
+  padding: 72px;
+}
+
+.title h1 {
+  max-width: 513px;
+  color: #000;
+  font-family: open-sans;
+  font-weight: normal;
+  font-size: 60px;
+  font-weight: 600;
+  margin: 0 0 9px;
+  
+}
+
+.title > div > div p {
+  
+  margin: 47.5px 0;
+}
+
+.title > div > div > div> div > div p{
+  max-height: 500px;
+  margin: 0;
+}
+
+.title picture {
+  height: 500px;
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.title img {
+  
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+@media (width >= 900px) { 
+  .title {
+    padding: 72px;
+  }
+}
+

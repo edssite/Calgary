@@ -14,6 +14,10 @@
 @import url('../blocks/custom/properties/testing-cards.css');
 @import url('../blocks/custom/volunteer/volunteer-banner.css');
 @import url('../blocks/custom/volunteer/volunteer-cards.css');
+@import url('../blocks/custom/properties/info-cards.css');
+@import url('../blocks/custom/properties/links-col.css');
+@import url('../blocks/custom/properties/title-of-cards.css');
+@import url('../blocks/custom/properties/topic-cards.css');
 :root {
   /* colors */
   --background-color: white;
@@ -24,7 +28,7 @@
   --link-hover-color: #1d3ecf;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
+  --body-font-family: roboto, roboto-fallback, open-sans;
   --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
 
   /* body sizes */

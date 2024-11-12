@@ -1,0 +1,82 @@
+.topic-cards-wrapper {
+    padding: 0% !important;
+    max-width: 1200px;
+}
+
+.topic-cards {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.topic-cards > div  {
+    width: calc(25% - 1rem);
+    height: 402.64px;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid #dbdcdd;
+    box-shadow: 1px 4px 4px #dbdcdd;
+    border-radius: 20px;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.topic-cards img {
+    height: 152px;
+    position: relative;
+    border-top-left-radius: calc(1rem - .0625rem);
+    border-top-right-radius: calc(1rem - .0625rem);
+    border-bottom: .0625rem solid #dbdcdd; 
+    width: 100%;
+    object-fit: cover;
+    padding: 0px;
+  
+}
+
+.topic-cards > div:hover {
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+    background-color: white;
+    border: 1px solid #dbdcdd; 
+    box-shadow: 1px 6px 6px rgb(51, 51, 51);
+}
+
+.topic-cards > div > div > h3  {
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: rgb(200, 16, 46);
+    font-family: open-sans;
+    font-size: 23px;
+    font-weight: norml;
+    word-wrap: break-word;
+    margin: 0 0 0px;  
+}
+
+.topic-cards > div > div p {
+    margin: 0 0 0px;  
+}
+
+
+.topic-cards > div > div > table td {
+    padding: 18px;
+    color: #333;
+    font-family: open-sans;
+    font-size: 16px;
+    font-weight: normal;
+    word-wrap: break-word;
+    margin: 0 0 0px;  
+}
+
+@media (max-width: 768px) {
+    .topic-cards > div {
+        width: calc(50% - 1rem); 
+    }
+}
+
+@media (max-width: 480px) {
+    .topic-cards > div {
+        width: 100%; 
+    }
+}
