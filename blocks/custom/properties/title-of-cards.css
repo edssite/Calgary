@@ -1,0 +1,21 @@
+.title-of-cards> div{
+    padding: 90px 0px 0px;
+    margin: 0 0 0px;
+}
+
+.title-of-cards >div> div h2{
+    font-family: open-sans;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0 0 6px;
+}
+
+.title-of-cards::after {
+    content: "";
+    display: block;
+    width: 100px;      
+    height: 7px;        
+    background-color: #C8102E; 
+    margin-bottom: 27px;  
+    position: relative; 
+}
